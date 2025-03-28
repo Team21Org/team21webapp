@@ -44,34 +44,6 @@ export default function ViewMarket() {
             </Head>
 
             <div>
-                <div>
-                    <Link href="/"> <Image className="banner" src="/LOGOv1.png" alt="Logo" width={160} height={110} /> </Link>
-                    <h1>Stock Trading System Simulator</h1>
-                    <h2>By Team 21</h2>
-                    <h2>Sam Kline, Michael Lacey, Josien Lajoie</h2>
-                    <div className="navbar">
-                        <Link className="login" href="/login">Log In</Link>
-                        <Link href="./schedule">View Schedule</Link>
-                        <Link href="./market">View Market</Link>
-                        <div className="dropdown">
-                            <button className="dropbtn">Account</button>
-                            <div className="dropdown-content">
-                                <Link href="/Profile">Profile</Link>
-                                <Link href="/Profile/portfolio">Portfolio</Link>
-                                <Link href="/Profile/portfolio/transaction-history">Transaction History</Link>
-                            </div>
-                        </div>
-                        <div className="dropdown">
-                            {/* <!-- check if user is administrator to reveal Hidden attributes --> */}
-                            <button hidden className="dropbtn">Edit</button>
-                            <div className="dropdown-content">
-                                <a href="editmarket.html">Edit Market</a>
-                                <a href="editschedule.html">Edit Schedule</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <h3>View Market</h3>   
 
                 <div className="w-full max-w-md">
