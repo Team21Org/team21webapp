@@ -1,0 +1,242 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela&display=swap');
+
+/*<<<<<<<<< GENERAL STYLES >>>>>>>>>>>>>/*
+
+/* HTML Styles */
+html {
+	height: 100%;
+	background-color: #E9E9E9;
+	font-family: Tahoma, sans-serif;
+	color: black;
+}
+
+/* Standard Text Styles */
+
+p {
+	font-size: large;
+}
+
+/* Project Title in the Top Right */
+h1 {
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+}
+
+/* Team Name and Member Names */
+h2 {
+	text-align: right;
+	font-size: 20px;
+	margin-top: -20px;
+	margin-right: 10px;
+}
+
+/* Page Name on Nav Bar (try not to mess with)*/
+h3 {
+	background-color: #44457E;
+	color: white;
+	margin-top: -2px;
+	padding: 12px;
+	margin-right: -12px;
+	margin-left: -8px;
+}
+
+/* Image Styles */ 
+
+/* Logo in the Top Left */
+img.banner {
+	padding-top: 12px;
+	margin-bottom: -12px;
+	padding-left: 12px;
+	width: auto;
+	height: auto;
+}
+img.banner:hover {
+	filter:grayscale(1);
+}
+
+/* Navigation Bar Style */
+.navbar a {
+	float: right;
+	background-color: #44457E;
+	color: white;
+	padding: 12px;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #44457E;
+	color: white;
+	padding: 13px;
+	font-size: 16px;
+	border: none;
+}
+
+/* Dropdown Button's Position*/
+.dropdown {
+	float: right;
+	position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #AC7EF8;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the buttons when content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #7E8DF8;
+} 
+
+/* Change how submit and other buttons look to match theme */
+.btn {
+	background-color: #AC7EF8;
+	color: white;
+	cursor:pointer;
+	padding: 12px;
+	font-size: 16px;
+	border: none;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: #926bd1;
+}
+
+/* Table Styling */
+table {
+  border-spacing: 0px;
+}
+th, td {
+	border-bottom: 1px solid #ddd;
+	padding: 15px;
+}
+th {
+	background-color: #f1f1f1;
+}
+tr:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+tr:hover {
+	background-color: #7E8DF8;
+}
+
+/*<<<<<<<<< SPECIFIC PAGE STYLES  >>>>>>>>>>>>>/*
+
+/* Homepage */
+
+/*HomePage Tagline */
+h4 {
+	font-size: 50px;
+	font-family: "Poppins", sans-serif;
+	margin:50px 0px 30px 0px;
+	color:#AC7EF8;
+	text-shadow: 1px 2px 2px black;
+}
+
+/*Stock Image Shadow + Position*/
+#homeimg {
+	box-shadow: 0 4px 8px 0 black, 0 6px 10px 0 black;
+	float:right;
+	margin-right: 5%;
+	border-radius: 20px;
+	width: 40%;
+	clip-path: ellipse(100% 100% at right);
+}
+
+/* Home Blurb Text */
+#hometxt {
+	line-height: 35px; 
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/* Avatar Logo */
+#homeimg2 {
+	max-width: 5%;
+	float:left;
+}
+
+/* Stock Market Logo */
+#homeimg3 {
+	max-width: 5%;
+	float:left;
+	margin-left: 3%;
+}
+
+/* Centered Purple Text */
+#h4alt1 {
+	text-align: center;
+}
+
+/* Purple Button Links + Text */
+#h4alt2 {
+	color:white;
+	font-size: 170%;
+	width: 20%;
+	background-color: #44457E;
+	border-radius: 20px;
+	text-align:center;
+	float: left;
+	margin: 15px 0px 0px 15px;
+	cursor: pointer;
+}
+#h4alt2:hover {
+	background-color: #494c4e;
+}
+
+
+/* Login-In Page */
+
+/*Login-Form Style */
+#loginform {
+	font-family: "Poppins";
+}
+#loginform input {
+	width: 13%;
+	font-family: "Poppins";
+}
+
+/* Sign-Up Page */
+
+/* Sign Up Button */
+#accbtn {
+	background-color: #44457E;
+	color: white;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 16px;
+}
+#accbtn:hover {
+	background-color: #494c4e;
+}
